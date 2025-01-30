@@ -1,0 +1,43 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+
+  background: rgb(82, 34, 208);
+  background: linear-gradient(180deg, rgba(82, 34, 208, 1) 28%, rgba(97, 239, 255, 1) 100%);
+
+
+  .content{
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    padding: 64px 16px 32px;
+
+    display: flex;
+    flex-direction: column;
+
+
+    img{
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+    }
+
+    h1{
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+  }
+
+  footer{
+    color: #373737;
+    font-size: 12px;
+    padding: 24px 0;
+  }
+
+}
+
+
