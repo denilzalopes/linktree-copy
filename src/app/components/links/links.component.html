@@ -1,5 +1,8 @@
 <ul class="linksList">
-  <li>
-    <a href="" >esse é um link</a>
-  </li>
+  @for(link of links; track link.url){
+    <li>
+      <a href="{{link.url}}" [target]="link.isExternal ? '_blanc' : '_self'" >{{link.title}}</a>
+    </li>
+
+  }
 </ul>

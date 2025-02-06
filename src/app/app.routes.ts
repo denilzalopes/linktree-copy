@@ -5,6 +5,10 @@ export const routes: Routes = [
   {
   path: "",
     component: HomeComponent
-  }
+  },
+  {
+    path: 'page/:slug',
+    component: HomeComponent
+    }
 
 ];
